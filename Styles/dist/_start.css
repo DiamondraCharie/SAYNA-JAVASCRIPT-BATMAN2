@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Rajdhani";
+  src: url(../police/Rajdhani-Medium.ttf);
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../police/SpaceGrotesk-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../Illustrations/Batgame_1.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: "rajdhani";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url(../police/Rajdhani-Medium.ttf);
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../police/SpaceGrotesk-Regular.ttf);
+}
+#start {
+  letter-spacing: 2px;
+}
+#start h1 {
+  font-family: "Rajdhani";
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 150px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#start .fleche {
+  display: block;
+  margin: 0 auto;
+  margin-top: 540px;
+}
+#start .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 125px;
+}
+#start .content h2 {
+  font-family: "Rajdhani";
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#start .content img {
+  width: 800px;
+  animation: zoom-in 0.5s ease-in-out forwards;
+}
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+  }
+  /* Zoom initial */
+  100% {
+    transform: scale(1);
+  }
+  /* Zoom final */
+}
+#start .content .btn {
+  margin-top: 40px;
+  background: linear-gradient(to right, #495869, #c77a33);
+  padding: 15px 50px;
+}
+#start .content .btn a {
+  text-decoration: none;
+  color: #ffff;
+  font-family: "Rajdhani";
+  font-size: 16px;
+}

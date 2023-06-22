@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Rajdhani";
+  src: url(../police/Rajdhani-Medium.ttf);
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../police/SpaceGrotesk-Regular.ttf);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.navbar a {
+  color: #ffff;
+  font-size: 25px;
+  font-family: "Rajdhani";
+  padding: 22px;
+}
+.navbar_link {
+  text-decoration: none;
+  font-weight: 300;
+}
+.navbar_link2 {
+  font-weight: 600;
+}

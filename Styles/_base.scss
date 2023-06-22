@@ -1,0 +1,23 @@
+@import './typo';
+@import './colors';
+
+* { 
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+ }
+
+ .container {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+
+ body {
+     background-image: url(../Illustrations/Batgame_1.png);
+     background-repeat: no-repeat;
+     background-color: hsl(0 0% 0%);
+     color: hsl(0 0% 100%);
+     font-family: "rajdhani";
+     font-weight: 400;
+ }

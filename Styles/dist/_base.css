@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "rajdhani";
+  src: url(police/Rajdhani-Medium.ttf);
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(police/SpaceGrotesk-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../Illustrations/Batgame_1.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: "rajdhani";
+  font-weight: 400;
+}

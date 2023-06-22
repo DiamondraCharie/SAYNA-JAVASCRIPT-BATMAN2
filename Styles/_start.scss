@@ -1,0 +1,84 @@
+@import './base';
+@import './colors';
+@import './typo';
+
+#start {
+    letter-spacing: 2px;
+    h1 {
+        font-family: "Rajdhani";
+        font-size: 45px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 150px;
+        animation: fade-in 2s ease-in-out forwards;
+     }
+
+     @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+  
+
+     .fleche {
+        display: block;
+        margin: 0 auto;
+        margin-top: 540px;
+    }
+     .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 125px;
+        
+        h2 {
+            font-family: 'Rajdhani';
+            font-size: 28px;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+            animation: fade-in 2s ease-in-out forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+              opacity: 0;
+              transform: translateX(-100%);
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+           
+            img {
+                width: 800px;
+                animation: zoom-in 0.5s ease-in-out forwards; 
+            }
+
+            @keyframes zoom-in {
+                0% { transform: scale(0); } /* Zoom initial */
+                100% { transform: scale(1); } /* Zoom final */
+              }
+        
+        
+        .btn {
+            margin-top: 40px;
+            background: linear-gradient(to right, hsl(213 18% 35%), hsl(29 59% 49%) );
+            padding: 15px 50px;
+            a {
+                text-decoration: none;
+                color: $white;
+                font-family: 'Rajdhani';
+                font-size: 16px;
+            }
+        }
+     }
+        
+     }
+

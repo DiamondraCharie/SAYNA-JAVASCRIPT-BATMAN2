@@ -1,0 +1,25 @@
+@import './colors';
+@import './typo';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+
+     a {
+       color: $white;
+       font-size: 25px;
+       font-family: 'Rajdhani';
+       padding: 22px;
+    }
+
+    &_link {
+      text-decoration: none;
+      font-weight: 300;
+    }
+
+    &_link2 {
+      font-weight: 600;
+    }
+}
